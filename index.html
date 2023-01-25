@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu card </title>
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
 
-    <section class="container">
-        <div class="buttons-container">
-            <button data-id="All" class="filter-btns">All</button>
-            <button class="filter-btns" data-id="iphone">Iphone</button>
-            <button class="filter-btns" data-id="macbook">Macbook</button>
-            <button class="filter-btns" data-id="samsung">Samsung</button>
-        </div>
+    <section class="app-container">
+       <div class="searching-container">
+        <input type="text" placeholder="search movie by Name" id="input-val" onkeyup="search()">
+       </div>
 
-        <div class="cards-details">      
-        </div>
+       <section class="movies-container" id="movies-container">
+       
+       </section>
     </section>
+    
+    <script src="./Data.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>
